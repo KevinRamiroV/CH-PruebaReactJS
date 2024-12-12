@@ -1,0 +1,61 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr auto;
+    background-color: #93A8AC;
+}
+.navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+    width: 75px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navItem{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 0 10px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.navShoppingCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.shoppingCartLogo{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.ActualCart{
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin: 200px 45%;
+    min-width: 300px;
+    border-radius: 8px;
+}
+.ActualCartHeader{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 0.1fr;
+}
+.HeaderButtons{
+    display: flex;
+    margin: 2px;
+    gap: 5px;
+}
+.closeBtn{
+    width: 36px;
+    cursor: pointer;
+}
+
